@@ -1,7 +1,7 @@
 # 분류 모델 웹앱 만들기
 
 import streamlit as st
-import joblib as jl
+import joblib
 model = joblib.load('linear_regression_model.pkl')
 
 # 1. 기계학습 모델 파일 로드
