@@ -17,20 +17,18 @@ col1,col2,col3 = st.columns(3)
 # 3. 데이터시각화
 
 with col1:
-      st.subheader('데이터시각화1')
+      st.subheader('데이터시각화1(히트맵)')
       st.image('____________' )   # 이미지 불러오기
-    col1:
-      st.subheader('데이터시각화1')
-      st.image('____________' )   # 이미지 불러오기
+
   
 # 4. 모델 활용
 
 with col2:
-    st.subheader('사용자 정보 입력')
-    a = st.selectbox('나이는 몇살입니까?',value=0)
+    st.subheader('정보 입력')
+    a = st.number_input('나이는 몇살입니까?',value=0)
     b = st.selectbox('성별은 무엇인가요?',['female,male'])
-    c = st.selectbox('bmi 수치는 몇인가요?',value=22.5)
-    d = st.selectbox('자녀는 몇명인가요?',value=0)
+    c = st.number_input('bmi 수치는 몇인가요?',value=22.5)
+    d = st.number_input('자녀는 몇명인가요?',value=0)
     e = st.selectbox('흡연을 한적이 있습니까?',['yes,no'])
     f = st.selectbox('거주 지역은 어디인가요?',['southwest,southeast,northwest,northeast'])
 
