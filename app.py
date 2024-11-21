@@ -18,7 +18,7 @@ col1,col2,col3 = st.columns(3)
 
 with col1:
       st.subheader('데이터시각화1(히트맵)')
-      st.image('____________' )   # 이미지 불러오기
+      st.image('시각화1.png')   # 이미지 불러오기
 
   
 # 4. 모델 활용
