@@ -14,7 +14,7 @@ with col1:
   
 # 4. 모델 활용
 with col2:
-    st.subheader('정보 입력')
+    st.subheader('정보 입력(사용자의 정보를 학습하지 않습니다)')
     a = st.number_input('나이는 몇살입니까?',value=0)
     b = st.selectbox('성별은 무엇인가요?(여성=0,남성=1)',[0,1])
     c = st.number_input('bmi 수치는 몇인가요?',value=22.5)
