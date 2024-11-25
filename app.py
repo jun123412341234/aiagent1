@@ -20,7 +20,7 @@ with col2:
     c = st.number_input('bmi 수치는 몇인가요?',value=22.5)
     d = st.number_input('자녀는 몇명인가요?',value=0)
     e = st.selectbox('흡연을 한적이 있습니까?(X=0,O=1)',[0,1])
-    f = st.selectbox('거주 지역은 어디인가요?(남동,남서,동서)',[0,1,2,3])
+    f = st.selectbox('거주 지역은 어디인가요?(동,서,남,북)',[0,1,2,3])
 # 5. 모델 설명
 with col3:
     st.subheader('모델 설명')
